@@ -1,0 +1,169 @@
+/*start  general setting */
+ @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
+ * {
+    margin    : 0;
+    padding   : 0;
+    outline   : none;
+    box-sizing: border-box;
+}
+:root {
+    --pa1     : 10px;
+    --pa2     : 20px;
+    --pa3     : 30px;
+    --pa4     : 40px;
+    --pa5     : 50px;
+    --overC1  : rgba(0, 0, 0, 0.4);
+    --overC2  : rgba(0, 0, 0, 0.8);
+    --tr      : all 0.4s linear;
+    --mc      : #2C74B3;
+    --sc      : #485F7B;
+    --footc   : #0A2647;
+    --secfootc: #071C34;
+}
+ .btn{
+    cursor: pointer !important;
+ }
+ .btn:hover{
+    background:#059372ab !important;
+ }
+body {
+font-family: 'Rubik',
+sans-serif;
+background: #FBFBFB;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+.pad-sec {
+    padding: 60px 0;
+}
+/*end  general setting */
+/*start navbar setting */
+header {
+    position: relative;
+    height: 100vh;
+}
+header .ground{
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -2;
+}
+header .overlay{
+    position: absolute;
+    top: 0;right: 0;left: 0;bottom: 0;
+    background-color: var(--overC1);
+    z-index: -1;
+}
+header .logo{
+    display: flex;
+    align-items:center;
+    gap: 5px;
+}
+header .logo h4{
+    color:#fff;
+
+}
+header .logo img{
+    width: 60px;
+    height: 60px;
+}
+header .text{
+    position: relative;
+    color:#fff;
+    text-align:center;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items:center;
+    padding:13% 0;
+    z-index: 2;
+}
+header .text a{
+    background-color:#059372;
+    padding: 18px 90px;
+    
+}
+header .text p{
+    max-width: 1000px;
+}
+/*end navbar setting */
+/*start menu setting */
+    main .menu h3{
+        color:var(--footc);
+        font-weight: bold;
+    }
+    main .menu .box{
+        border:1px solid #E4E5EE;
+        padding:0;
+        border-radius:10px;
+    }
+    main .menu .box img{
+        height: 300px;
+        width: 100%;
+    }
+    main .menu .box .details{
+        padding:20px 25px;
+        background: #fff;
+        text-align: center;
+    }
+    main .menu .box .details h3{
+        font-size: 20px;
+        font-weight:400;
+        color:#202435;
+    }
+    main .menu .box .details p{
+        color:#202435;
+        font-size:15px;
+    }
+    main .menu .box .details .price{
+        display: flex;
+        align-items:center;
+        gap: 15px;
+        justify-content: center;
+        margin-top:15px;
+        margin-bottom:15px;
+    }
+    main .menu .box .details .old-price{
+        color:#C2C2D3;
+        text-decoration: line-through;
+        font-size: 18px;
+    }
+    main .menu .box .details .new-price{
+        color:#059372;
+        font-size: 26px;
+        
+        /* font-weight: bold; */
+    }
+    main .menu .box .details button{
+        background:#059372;
+        font-size: 15px;
+        padding:14px 50px;
+        border-radius: 25px;
+        margin-top: 15px;
+    }
+    main .menu .box .details button:hover{
+        background:#059372ab;
+    }
+    
+/*end menu setting */
+
+/* footer setting  */
+footer{
+    background:#2E3333;
+    color:#fff !important;
+}
+footer .nav-link{
+    font-size: 17px;
+    color: #fff !important;
+}

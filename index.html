@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Template</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -21,120 +24,97 @@
                 <div class="logo">
                     <img src="assets/images/Logo.png" alt="">
                     <h4>NESAM</h4>
+                    <ul class="links d-flex gap-3 pt-2 me-5">
+                        <li><a href="#principaux" class="text-white">les repas principaux</a></li>
+                        <li><a href="#meze" class="text-white">meze</a></li>
+                    </ul>
                 </div>
-                <a class="btn btn-secondary" style="background-color: #059372 !important;">Reserve now!</a>
-            </nav>
+                <div class="icon">
+                    <a href="https://www.facebook.com/p/sesam_kortrijk-100078879553433/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.tiktok.com/@sesam.kortrijk?_t=8eHNvLX7jYp&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://www.instagram.com/sesam_kortrijk/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=32490433426"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+             </nav>
         </div>
         <div class="text">
             <h3>Sesame for oriental Cuisine</h3>
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
                 et dolore
                 magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo</p>
-            <a class="btn btn-secondary  text-center">Reserve now!</a>
+            <a class="btn btn-secondary  text-center">Réserve à table</a>
         </div>
     </header>
     <!-- main section  -->
     <main>
-        <section class="menu pad-sec">
+        <section class="menu pad-sec" id="principaux">
             <h3 class="text-center">Our Menu</h3>
             <p class="text-center py-3" style="color: #585C5C;">les repas principaux</p>
             <div class="container">
                 <div class="boxes row" style="gap:20px;justify-content:center">
-                   
-                   
                     <div class="box col-lg-3">
-                        <img src="assets/images/mmmmm.jpg" alt="">
+                        <img src="assets/images/main/Kapsa Kip.jpeg" alt="">
                         <div class="details">
-                            <h3>Hoofdgerechten</h3>
-                            
+                            <h3>Kapsa Kip</h3>
                             <div class="price">
-                                <!-- <h3 class="old-price">$9.35</h3> -->
-                                <h3 class="new-price">€119</h3>
+                                 <a href="#" data-bs-toggle="modal" data-bs-target="#priceModal" id="pr_price">Preview Prices</a>
                             </div>
-                            <button class="btn btn-secondary">Order now</button>
-                        </div>
-                    </div>
-
-                    <div class="box col-lg-3">
-                        <img src="assets/images/لقطة شاشة 2023-07-24 161703.png" alt="">
-                        <div class="details">
-                            <h3>Maqluba met kip of lam</h3>
-                            
-                            <div class="price">
-                                <!-- <h3 class="old-price">$9.35</h3> -->
-                                <h3 class="new-price">€75</h3>
-                            </div>
-                            <button class="btn btn-secondary">Order now</button>
-                        </div>
-                    </div>
-
-                    <div class="box col-lg-3">
-                        <img src="assets/images/لقطة شاشة 2023-07-24 161856.png" alt="">
-                        <div class="details">
-                            <h3>Mosakhan (kip)</h3>
-                            
-                            <div class="price">
-                                <!-- <h3 class="old-price">$9.35</h3> -->
-                                <h3 class="new-price">€...</h3>
-                            </div>
-                            <button class="btn btn-secondary">Order now</button>
-                        </div>
-                    </div>
-
-                    <div class="box col-lg-3">
-                        <img src="assets/images/لقطة شاشة 2023-07-24 162131.png" alt="">
-                        <div class="details">
-                            <h3>Kapsa vlees naar keuze</h3>
-                            
-                            <div class="price">
-                                <!-- <h3 class="old-price">$9.35</h3> -->
-                                <h3 class="new-price">€...</h3>
-                            </div>
-                            <button class="btn btn-secondary">Order now</button>
-                        </div>
-                    </div>
-
-                    <div class="box col-lg-3">
-                        <img src="assets/images/لقطة شاشة 2023-07-24 162315.png" alt="">
-                        <div class="details">
-                            <h3>Kapsa kip</h3>
-                            
-                            <div class="price">
-                                <!-- <h3 class="old-price">$9.35</h3> -->
-                                <h3 class="new-price">€...</h3>
-                            </div>
-                            <button class="btn btn-secondary">Order now</button>
-                        </div>
-                    </div>
-
-                    <div class="box col-lg-3">
-                        <img src="assets/images/لقطة شاشة 2023-07-24 162458.png" alt="">
-                        <div class="details">
-                            <h3>Qedra (vlees naar keuze)</h3>
-                            
-                            <div class="price">
-                                <!-- <h3 class="old-price">$9.35</h3> -->
-                                <h3 class="new-price">€...</h3>
-                            </div>
-                            <button class="btn btn-secondary">Order now</button>
                         </div>
                     </div> 
-
-                   
-
-                    
-                    
+                    <div class="box col-lg-3">
+                        <img src="assets/images/main/Kapsa vlees naar keuze.jpeg" alt="">
+                        <div class="details">
+                            <h3>Kapsa vlees naar keuze</h3>
+                            <div class="price">
+                                 <a href="#" data-bs-toggle="modal" data-bs-target="#priceModal" id="pr_price">Preview Prices</a>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="box col-lg-3">
+                        <img src="assets/images/main/Maqluba met kip of lam.jpeg" alt="">
+                        <div class="details">
+                            <h3>Maqluba met kip of lam</h3>
+                            <div class="price">
+                                 <a href="#" data-bs-toggle="modal" data-bs-target="#priceModal" id="pr_price">Preview Prices</a>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="box col-lg-3">
+                        <img src="assets/images/main/Mosakhan (kip).jpeg" alt="">
+                        <div class="details">
+                            <h3>Mosakhan (kip)</h3>
+                            <div class="price">
+                                 <a href="#" data-bs-toggle="modal" data-bs-target="#priceModal" id="pr_price">Preview Prices</a>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="box col-lg-3">
+                        <img src="assets/images/main/Qedra (vlees naar keuze).jpeg" alt="">
+                        <div class="details">
+                            <h3>Qedra (vlees naar keuze)</h3>
+                            <div class="price">
+                                 <a href="#" data-bs-toggle="modal" data-bs-target="#priceModal" id="pr_price">Preview Prices</a>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="box col-lg-3">
+                        <img src="assets/images/main/WhatsApp Image 2023-07-25 at 5.00.38 PM.jpeg" alt="">
+                        <div class="details">
+                            <h3>meet</h3>
+                            <div class="price">
+                                 <a href="#" data-bs-toggle="modal" data-bs-target="#priceModal" id="pr_price">Preview Prices</a>
+                            </div>
+                        </div>
+                    </div> 
                 </div>
             </div>
         </section>
-        <section class="menu pad-sec">
-             <p class="text-center py-3" style="color: #585C5C;">Mezze</p>
+        <section class="menu pad-sec" id="meze">
+             <p class="text-center py-3" style="color: #63afaf;">Mezze</p>
             <div class="container">
                 <div class="boxes row" style="gap:20px;justify-content:center">
-                   
-                   
                     <div class="box col-lg-3">
-                        <img src="assets/images/papaganoug.png" alt="">
+                        <img src="assets/images/meze/Papa Ganoush.jpeg" alt="">
                         <div class="details">
                             <h3>Papa Ganoush</h3>
                             
@@ -142,7 +122,6 @@
                                 <!-- <h3 class="old-price">$9.35</h3> -->
                                 <h3 class="new-price">€7.9</h3>
                             </div>
-                            <button class="btn btn-secondary">Order now</button>
                         </div>
                     </div>
                     
@@ -155,12 +134,11 @@
                                 <!-- <h3 class="old-price">$9.35</h3> -->
                                 <h3 class="new-price">€6.9</h3>
                             </div>
-                            <button class="btn btn-secondary">Order now</button>
                         </div>
                     </div>
 
                     <div class="box col-lg-3">
-                        <img src="assets/images/dwale.png" alt="">
+                        <img src="assets/images/meze/Wijnbladeren.jpeg" alt="">
                         <div class="details">
                             <h3>Wijnbladeren</h3>
                             
@@ -168,12 +146,11 @@
                                 <!-- <h3 class="old-price">$9.35</h3> -->
                                 <h3 class="new-price">€7.9</h3>
                             </div>
-                            <button class="btn btn-secondary">Order now</button>
                         </div>
                     </div>
 
                     <div class="box col-lg-3">
-                        <img src="assets/images/ةخعسشنش.png" alt="">
+                        <img src="assets/images/meze/Mousaka.jpeg" alt="">
                         <div class="details">
                             <h3>Mousaka</h3>
                             
@@ -181,12 +158,11 @@
                                 <!-- <h3 class="old-price">$9.35</h3> -->
                                 <h3 class="new-price">€7.9</h3>
                             </div>
-                            <button class="btn btn-secondary">Order now</button>
                         </div>
                     </div>
 
                     <div class="box col-lg-3">
-                        <img src="assets/images/fattouch.png" alt="">
+                        <img src="assets/images/meze/Fattouch.jpeg" alt="">
                         <div class="details">
                             <h3>Fattouch</h3>
                             
@@ -194,12 +170,11 @@
                                 <!-- <h3 class="old-price">$9.35</h3> -->
                                 <h3 class="new-price">€7.9</h3>
                             </div>
-                            <button class="btn btn-secondary">Order now</button>
                         </div>
                     </div>
 
                     <div class="box col-lg-3">
-                        <img src="assets/images/samboska.png" alt="">
+                        <img src="assets/images/meze/Samboska.jpeg" alt="">
                         <div class="details">
                             <h3>Samboska</h3>
                             
@@ -207,12 +182,11 @@
                                 <!-- <h3 class="old-price">$9.35</h3> -->
                                 <h3 class="new-price">€7.5</h3>
                             </div>
-                            <button class="btn btn-secondary">Order now</button>
                         </div>
                     </div>
 
                     <div class="box col-lg-3">
-                        <img src="assets/images/taboule.png" alt="">
+                        <img src="assets/images/meze/Taboule.jpeg" alt="">
                         <div class="details">
                             <h3>Taboule</h3>
                             
@@ -220,12 +194,11 @@
                                 <!-- <h3 class="old-price">$9.35</h3> -->
                                 <h3 class="new-price">€6.9</h3>
                             </div>
-                            <button class="btn btn-secondary">Order now</button>
                         </div>
                     </div>
 
                     <div class="box col-lg-3">
-                        <img src="assets/images/homousmetgehakt.png" alt="">
+                        <img src="assets/images/meze/Homous met.jpeg" alt="">
                         <div class="details">
                             <h3>Homous met gehakt</h3>
                             
@@ -233,12 +206,11 @@
                                 <!-- <h3 class="old-price">$9.35</h3> -->
                                 <h3 class="new-price">€7.9</h3>
                             </div>
-                            <button class="btn btn-secondary">Order now</button>
                         </div>
                     </div>
 
                     <div class="box col-lg-3">
-                        <img src="assets/images/tzatziki.png" alt="">
+                        <img src="assets/images/meze/Tzatziki.jpeg" alt="">
                         <div class="details">
                             <h3>Tzatziki</h3>
                             
@@ -246,12 +218,11 @@
                                 <!-- <h3 class="old-price">$9.35</h3> -->
                                 <h3 class="new-price">€6.5</h3>
                             </div>
-                            <button class="btn btn-secondary">Order now</button>
-                        </div>
+                         </div>
                     </div>
 
                     <div class="box col-lg-3">
-                        <img src="assets/images/falafel.png" alt="">
+                        <img src="assets/images/meze/Falafel.jpeg" alt="">
                         <div class="details">
                             <h3>Falafel</h3>
                             
@@ -259,19 +230,37 @@
                                 <!-- <h3 class="old-price">$9.35</h3> -->
                                 <h3 class="new-price">€8.90</h3>
                             </div>
-                            <button class="btn btn-secondary">Order now</button>
-                        </div>
+                         </div>
                     </div>
 
-                    
-
-                   
-
-                    
+        
                     
                 </div>
             </div>
-        </section>v
+        </section>
+        <!-- Modal -->
+        <div class="modal fade" id="priceModal" tabindex="-1" aria-labelledby="priceModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="priceModalLabel">Preview Prices</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    <ul class="plan-features">
+                        <li>10 Free PSD files</li>
+                        <li>10 Free PSD files</li>
+                        <li>10 Free PSD files</li>
+                        <li>10 Free PSD files</li>
+                        <li>10 Free PSD files</li>
+                        <li>10 Free PSD files</li>
+                    </ul>
+                    </div>
+                 
+                </div>
+            </div>
+        </div>
+
     </main>
     <!-- footer section  -->
          <footer class="d-flex flex-row-reverse flex-wrap justify-content-between align-items-center py-2">
@@ -288,6 +277,9 @@
      <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script>
+       
+    </script>
 </body>
 
 </html>

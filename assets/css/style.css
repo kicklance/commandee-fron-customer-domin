@@ -14,7 +14,7 @@
     --pa5     : 50px;
     --overC1  : rgba(0, 0, 0, 0.4);
     --overC2  : rgba(0, 0, 0, 0.8);
-    --tr      : all 0.4s linear;
+    --tr      : all 0.3s linear;
     --mc      : #2C74B3;
     --sc      : #485F7B;
     --footc   : #0A2647;
@@ -44,6 +44,28 @@ a {
 }
 /*end  general setting */
 /*start navbar setting */
+ 
+.icon  a{
+    color:#fff;
+    font-size: 20px;
+    margin-left: 10px;
+    transition: var(--tr);
+}
+.icon  a:hover{
+    color:#797979 !important;
+}
+
+.links li a{
+    transition: var(--tr);
+}
+.links li:hover a{
+    color:#797979 !important;
+}
+@media (max-width:767px) {
+    .links {
+        display: none !important;
+}
+}
 header {
     position: relative;
     height: 100vh;
@@ -90,9 +112,14 @@ header .text{
     z-index: 2;
 }
 header .text a{
-    background-color:#059372;
+    border:none;
     padding: 18px 90px;
-    
+    background-color:#000;
+    transition: var(--tr);
+}
+header .text a:hover{
+    background-color:#000000be !important;
+
 }
 header .text p{
     max-width: 1000px;
@@ -140,27 +167,18 @@ header .text p{
         font-size: 18px;
     }
     main .menu .box .details .new-price{
-        color:#059372;
+        color:#000;
         font-size: 26px;
         
         /* font-weight: bold; */
     }
-    main .menu .box .details button{
-        background:#059372;
-        font-size: 15px;
-        padding:14px 50px;
-        border-radius: 25px;
-        margin-top: 15px;
-    }
-    main .menu .box .details button:hover{
-        background:#059372ab;
-    }
+  
     
 /*end menu setting */
 
 /* footer setting  */
 footer{
-    background:#2E3333;
+    background:#000;
     color:#fff !important;
 }
 footer .nav-link{
